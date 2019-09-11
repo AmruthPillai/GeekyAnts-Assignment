@@ -10,7 +10,11 @@
   border-radius: 20px;
 }
 
+.nav-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .nav-item.active {
   background: #fff;
-  color: #222;
+  color: #5222f0;
 }
