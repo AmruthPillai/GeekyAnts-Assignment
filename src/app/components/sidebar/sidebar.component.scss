@@ -1,0 +1,16 @@
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.profile {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.nav-item.active {
+  background: #fff;
+  color: #222;
+}

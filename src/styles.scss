@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+$background: #f2f6ff;
+$sidebar-background: linear-gradient(#5222f0, #167ff7);
+
+html,
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: $background;
+}
