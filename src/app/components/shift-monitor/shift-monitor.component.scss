@@ -1,0 +1,53 @@
+.profile {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.filter-button {
+  padding: 10px 32px;
+  border-radius: 15px;
+}
+
+.filter-button.active {
+  background-color: #fff;
+  border-bottom: 3px solid #5222f0;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.shift-card {
+  border-color: #eee;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.shift-card:first-child {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.shift-card:last-child {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.text-grey {
+  color: #aaa;
+}
+
+.badge-success {
+  color: rgba(40, 167, 69, 1);
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+.badge-warning {
+  color: rgba(255, 193, 8, 1);
+  background-color: rgba(255, 193, 8, 0.1);
+}
+
+.badge-danger {
+  color: rgba(220, 53, 69, 1);
+  background-color: rgba(220, 53, 69, 0.1);
+}
