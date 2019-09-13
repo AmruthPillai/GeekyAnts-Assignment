@@ -15,6 +15,48 @@
   border-bottom: 3px solid #5222f0;
 }
 
+.header {
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  z-index: 10;
+}
+
+#time-card {
+  position: relative;
+}
+
+#time-card:after {
+  content: '';
+  background: url('~/assets/192284.jpg');
+  border-radius: 20px;
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#weather-card {
+  position: relative;
+}
+
+#weather-card:after {
+  content: '';
+  background: url('~/assets/v2osk-JE01L3hB0GQ-unsplash.jpg');
+  border-radius: 20px;
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
 .card {
   border-radius: 20px;
 }
